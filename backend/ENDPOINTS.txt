@@ -1,0 +1,17 @@
+Método	          Endpoint	              Auth	     Descripción
+
+POST	          /api/auth/register	  No	     Registro
+POST	          /api/auth/login	      No	     Login → JWT
+GET	              /api/auth/me	          Sí	     Usuario actual
+GET	              /api/cars	              No	     Listar (filtros+paginación)
+GET	              /api/cars/:id	          No	     Detalle
+POST	          /api/cars	              Admin	     Crear
+PUT	              /api/cars/:id	          Admin	     Editar
+DELETE	          /api/cars/:id	          Admin	     Borrar
+GET	              /api/brands	          No	     Listar marcas
+POST/PUT/DELETE	  /api/brands/:id	      Admin	     CRUD marcas
+GET	              /api/categories	      No	     Listar categorías
+POST/PUT/DELETE	  /api/categories/:id	  Admin	     CRUD categorías
+GET	              /api/users	          Admin	     Listar usuarios
+PUT	              /api/users/:id/role	  Admin	     Cambiar rol
+DELETE	          /api/users/:id	      Admin	     Borrar usuario
