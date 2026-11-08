@@ -201,4 +201,4 @@ y, en su mayoría, un usuario con rol `admin`.
 
 ## Autor
 
-Proyecto desarrollado por **Rafael Velazquez Argote** como parte del periodo de prueba de Desarrollo de Software en **Turing Inteligencia Artificial S.A.S.**
+Proyecto desarrollado por **Rafael Velazquez Argote**
