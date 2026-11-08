@@ -1,24 +1,12 @@
 # AutosWeb
 
-Catálogo de automóviles con panel administrativo, autenticación por roles y calculadora de financiamiento. Proyecto desarrollado como parte del periodo de prueba de **Desarrollo de Software** en Turing Inteligencia Artificial.
-
-Este repositorio es un **monorepo** que contiene el backend y el frontend en carpetas separadas:
+Catálogo de automóviles con panel administrativo, autenticación por roles y calculadora de financiamiento.
 
 ```
 autosweb/
 ├── backend/     → API REST (Node.js + Express + Prisma + PostgreSQL)
 └── frontend/    → SPA (React + Vite + Tailwind CSS)
 ```
-
-## Demo en línea
-
-| Servicio | URL |
-|---|---|
-| Frontend | https://autosweb-frontend.vercel.app |
-| Backend (API) | https://autosweb-backend.onrender.com/api |
-| Health check | https://autosweb-backend.onrender.com/health |
-
-> El backend está en el plan gratuito de Render: si no ha recibido tráfico en los últimos 15 minutos, la primera petición puede tardar hasta 1 minuto en responder mientras el servicio "despierta".
 
 ## Stack tecnológico
 
